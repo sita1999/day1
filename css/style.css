@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+.sita{
+    font-size: 50px;
+    color:red;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+.paragraph{
+    font-size: 20px;
+    color:green;
+    text-align: center;
+    outline-style: dotted;
+    outline-style: double;
+    outline-style: groove;
+}
+.second-paragraph{
+    font-size: 30px;
+    text-align: center;
+    outline-style: hidden;
+    outline-style: ridge;
+    color: blue;
+    margin: 10px;
+    text-transform: lowercase;
+}
+.third-paragraph{
+    font-size: 20px;
+    text-align:center ;
+    color: hotpink;
+    outline-style: groove;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.double{
+    font-size: 20px;
+    text-align: right;
+    color: indigo;
+    outline-style: double;
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 300;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 20px;
+    letter-spacing: 3px;
+    line-height: 0.8;
+    white-space: normal;
+    text-shadow: 2px 2px 5px red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
+   .a{
+       margin-left: 20px;
+       list-style: decimal;
+   }
+   .b{
+       margin-left: 20px;
+       list-style: lower-roman;
+   }
+   .c{
+       margin-left: 20px;
+       list-style-type: lower-latin;
+   }
+   .d{
+       margin-left: 20px;
+       list-style-type: square;
+       list-style-position: outside;
+       list-style-image: url(https://www.facebook.com/);
+   }
